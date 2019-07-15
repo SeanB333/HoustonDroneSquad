@@ -49,7 +49,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToContact()">
               <i class="material-icons"></i> Contact
             </a>
           </li>
@@ -298,17 +298,17 @@
             </a>
           </li>
           <li>
-            <a href="https://creative-tim.com/presentation">
+            <a href="javascript:void(0)" onclick="scrollToServices()">
               Services
             </a>
           </li>
           <li>
-            <a href="http://blog.creative-tim.com">
+            <a href="javascript:void(0)" onclick="scrollToGallery()">
               Gallery
             </a>
           </li>
           <li>
-            <a href="https://www.creative-tim.com/license">
+            <a href="javascript:void(0)" onclick="scrollToContact()">
               Contact
             </a>
           </li>
@@ -360,10 +360,10 @@
       }
     }
 
-    function scrollToServices() {
-      if ($('.services-air').length != 0) {
+    function scrollToContact() {
+      if ($('.contact').length != 0) {
         $("html, body").animate({
-          scrollTop: $('.services-air').offset().top
+          scrollTop: $('.contact').offset().top
         }, 1000);
       }
     }
