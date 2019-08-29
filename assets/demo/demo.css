@@ -864,48 +864,57 @@
 
 /* added areas and services */
 
-
-.services-air {
-  width: 100%;
-  height: 400px;
-  background-color: #333333;
-  background-image: url(../../images/music.jpg);
-  background-size: cover;
+.secText {
+  color: #EEE;
+background-color: #ac28b6;
+text-align: center;
+font-weight: bolder;
+font-style: italic;
 }
 
 .air { 
 padding-top: 3%;
 padding-left: 2%;
-width: 30%
-}
-
-.services-mapping {
-  width: 100%;
-  height: 400px;
-  background-color: #333333;
-  background-image: url(../../images/maxresdefault.jpg);
-  background-position: bottom;
-  background-size: cover;
 }
 
 .mapping { 
-float: right;
 padding-top: 3%;
 padding-right: 2%;
-width: 30%
-}
-
-.services-pic {
-  width: 100%;
-  height: 400px;
-  background-color: #333333;
-  background-image: url(../../images/airDrone.png);
-  background-position: bottom;
-  background-size: cover;
 }
 
 .pic { 
 padding-top: 3%;
 padding-left: 2%;
-width: 30%
 }
+
+.shadow {
+  box-shadow: 10px 5px 15px grey;
+}
+
+.galleryBack {
+  background: linear-gradient(320deg, #ffffff, #ffffff, #8f0299);
+  background-size: 600% 600%;
+  -webkit-animation: galleyBack 14s ease infinite;
+  -moz-animation: galleyBack 14s ease infinite;
+  animation: galleyBack 14s ease infinite;
+}
+  
+  @-webkit-keyframes galleyBack {
+      0%{background-position:17% 0%}
+      50%{background-position:84% 100%}
+      100%{background-position:17% 0%}
+  }
+  @-moz-keyframes galleyBack {
+      0%{background-position:17% 0%}
+      50%{background-position:84% 100%}
+      100%{background-position:17% 0%}
+  }
+  @keyframes galleyBack { 
+      0%{background-position:17% 0%}
+      50%{background-position:84% 100%}
+      100%{background-position:17% 0%}
+  }
+
+
+
+
