@@ -865,30 +865,43 @@
 /* added areas and services */
 
 .secText {
-  color: #EEE;
+color: #EEE;
 background-color: #ac28b6;
 text-align: center;
 font-weight: bolder;
-font-style: italic;
+width: 33%;
+margin-top: 5%;
+margin-bottom: 5%;
+font-size: 3rem;
+transform: skew(-15deg);
+margin-left: -5%;
+padding: 1%;
+text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
 }
 
 .air { 
-padding-top: 3%;
-padding-left: 2%;
+margin: auto;
+
 }
 
 .mapping { 
-padding-top: 3%;
-padding-right: 2%;
+margin: auto;
+  
 }
 
 .pic { 
-padding-top: 3%;
-padding-left: 2%;
+margin: auto;
+ 
 }
 
 .shadow {
   box-shadow: 10px 5px 15px grey;
+}
+
+.inShadow {
+  -moz-box-shadow:    inset 0 0 10px #ffffff;
+  -webkit-box-shadow: inset 0 0 10px #ffffff;
+  box-shadow:         inset 0 0 100px #ffffff;
 }
 
 .galleryBack {
